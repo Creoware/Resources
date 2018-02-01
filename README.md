@@ -24,15 +24,10 @@ Developers will need an account with the following services:
 ### Testing
 
 All completed code must contain at least one of the following in the './tests' folder:
-- Functional Tests
-- Unit Tests
-- Integrated Tests
-- Automated Tests
-
-Use the best type of tests for the task.
-  UI -> Functional Testing / Automated Testing
-  REST Server / Api -> Integrated Testing
-  Modules / Algorithms -> Unit Testing
+- Functional Tests (UI)
+- Unit Tests (Modules)
+- Integrated Tests (APIs)
+- Automated Tests (UI)
  
 Use [QUnit](https://qunitjs.com) for all unit testing and integrated testing.
 
