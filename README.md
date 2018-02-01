@@ -20,3 +20,33 @@ Developers will need an account with the following services:
 - [Google](https://google.com)
 - [Slack](https://slack.com)
 - [Taiga](https://taiga.io)
+
+### Testing
+
+All completed code must contain at least one of the following in the './tests' folder:
+- Functional Tests
+- Unit Tests
+- Integrated Tests
+- Automated Tests
+
+Use the best type of tests for the task.
+  UI -> Functional Testing / Automated Testing
+  REST Server / Api -> Integrated Testing
+  Modules / Algorithms -> Unit Testing
+ 
+Use [QUnit](https://qunitjs.com) for all unit testing and integrated testing.
+
+  `./tests/my-unit-tests.js`
+
+Functional tests can be written in markdown style.
+ 
+  `./tests/my-functional-tests.md`
+  
+ 
+### Code Styling
+
+To keep our code consistent, developers should follow the [Javascript Standard Style](https://github.com/standard/standard/blob/master/docs/RULES-en.md#javascript-standard-style).
+
+There are resources to help with code formatting [here](https://github.com/standard/standard).
+
+
